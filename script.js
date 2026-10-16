@@ -1,6 +1,6 @@
 // CONFIGURAÇÃO: troque pelo número do WhatsApp da Dra. Elma.
  // Use código do país + DDD + número, somente dígitos. Exemplo fictício: 5511999999999
-const WHATSAPP_NUMBER = "55DDNUMEROAQUI";
+const WHATSAPP_NUMBER = "559981001479";
 
 const cleanPhone = WHATSAPP_NUMBER.replace(/\D/g, "");
 const validPhone = cleanPhone.length >= 12 && !cleanPhone.includes("DD") && !cleanPhone.includes("NUMEROAQUI");
